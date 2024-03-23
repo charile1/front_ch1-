@@ -8,7 +8,10 @@
     "test": "vitest",
     "test:a": "vitest src/__tests__/render.test.js",
     "test:b": "vitest src/__tests__/hooks.test.js",
-    "test:c": "vitest src/__tests__/MyReact.test.js"
+    "test:c": "vitest src/__tests__/MyReact.test.js",
+    "test:d": "vitest src/__tests__/hooks2.test.js",
+    "test:e": "vitest src/observer/__tests__/1.pubsub.test.js",
+    "test:f": "vitest src/observer/__tests__/2.store.test.js"
   },
   "devDependencies": {
     "vitest": "^1.4.0",
